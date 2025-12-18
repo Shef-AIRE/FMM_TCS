@@ -125,7 +125,7 @@ The pretrained weights can be found [here](https://huggingface.co/vandijklab/bra
 
 Then, put it under `brainlm_mae/pretrained_models` folder.
 
-### Run the model
+## Run the model
 Run `main.py` to train our model.
 
 A quick start:
@@ -133,3 +133,5 @@ A quick start:
 python main.py --lable_name <the column name of label of your task in your metadata.csv, e.g., response>
 ```
 
+## Acknowledgement
+This repository is built upon [BrainLM](https://github.com/vandijklab/BrainLM?tab=readme-ov-file).
