@@ -215,5 +215,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 results/
-brainlm_mae/pretrained_models
-atlases/
+brainlm_mae/pretrained_models/*
